@@ -6,12 +6,12 @@ import './index.css';
 import GlobalStyle from './GlobalStyle';
 
 ReactDOM.createRoot(document.getElementById('root')).render(
-  // <React.StrictMode>
+  <React.StrictMode>
   <BrowserRouter basename="/tweetsCart-test" >
     <App />
     <GlobalStyle />
     </BrowserRouter>
-// </React.StrictMode>
+ </React.StrictMode>
 );
 
 
